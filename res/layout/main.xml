@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Latitude"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/Lat"
+            android:text="Waiting..."
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Longitude"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/Lon"
+            android:text="Waiting..."
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Altitude"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/Alt"
+            android:text="Waiting..."
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Heading"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/Head"
+            android:text="Waiting..."
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Pitch"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/Pitch"
+            android:text="Waiting..."
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Roll"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/Roll"
+            android:text="Waiting..."
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    
+</TableLayout>
