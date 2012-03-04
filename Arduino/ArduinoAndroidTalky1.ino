@@ -13,19 +13,11 @@ void setup(){
   Serial.println("asdf");
 }
 
-void usbPrintLn(String toSend, AndroidAccessory usb) {
-  for(int i=0; i < toSend.length(); i++) {
-    usb.write(toSend[i]);
-  }
-  usb.write('\n');
-}
-
-
 void loop(){
-  if(millis()-timer>100) {
+  if(millis()-timer>500) {
     if(usb.isConnected()) {
       usb.beginTransmission();
-      usbPrintLn("Kevin FTW", usb);
+      usb.write(23);
       usb.endTransmission();
     }
     timer=millis();
